@@ -55,6 +55,15 @@ terms-of-service/
 
 Example: `mail-virus-check-terms.md` uses "terms" because it's an optional add-on service regulation, not a standalone contract.
 
+### Non-Contract Documents
+
+In addition to legal contracts and terms, this repository contains procedural documents:
+
+- **application.md**: Lists application forms for various service-related procedures
+  - Not a legal contract, but a reference guide for users
+  - Contains Google Forms URLs for account applications, domain requests, certificate issuance, etc.
+  - Should be updated when new application forms are added or URLs change
+
 ## Adding New Service Contracts
 
 When adding a new service contract:
