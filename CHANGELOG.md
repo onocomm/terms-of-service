@@ -9,7 +9,9 @@
 ## 📋 凡例
 
 - **[基本約款]**: オノコムサービス契約約款 (`contract_jp.md`)
-- **[AWS]**: AWSサポートサービス契約約款 (`services/aws-support/`)
+- **[AWS サポート]**: AWSサポートサービス契約約款 (`services/aws-support/`)
+- **[AWS 構築]**: AWS構築支援サービス契約約款 (`services/aws-build-support/`)
+- **[メールウイルス]**: メールウイルスチェックサービス利用規約 (`services/mail-virus-check/`)
 
 ---
 
@@ -26,11 +28,18 @@
 ## 2024年
 
 ### 2024年4月1日
-- **[AWS]** AWSサポートサービス契約約款 第1版を制定
+- **[AWS サポート]** AWSサポートサービス契約約款 第1版を制定
   - Amazon Web Servicesのサポートサービスに関する約款を新規制定
   - 従量課金制の委託料計算方法を規定
   - 保証金制度を導入
   - 詳細: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md#第1版---2024年4月1日)
+
+- **[AWS 構築]** AWS構築支援サービス契約約款 第1版を制定
+  - Amazon Web Servicesの構築作業支援に関する約款を新規制定
+  - 準委託契約による受託形態
+  - 検収期間の設定(作業完了から14日以内)
+  - AWS決済代行サービス及びAWSサポートサービスとの連携が前提
+  - 詳細: [services/aws-build-support/aws-build-support-history.md](./services/aws-build-support/aws-build-support-history.md#第1版---2024年4月1日)
 
 ## 2021年
 
@@ -61,6 +70,14 @@
   - データ消去条件を厳格化(6ヶ月 → 2ヶ月)
   - 詳細: [contract-jp-history.md](./contract-jp-history.md#第2版---2016年10月1日)
 
+### 2016年9月20日
+- **[メールウイルス]** メールウイルスチェックサービス利用規約 第1版を制定
+  - オノコムサービス利用者向けオプションサービスとして制定
+  - Trend Micro社のウイルス・マルウェア対策クラウドサービスを使用
+  - スパムメール判定機能を提供
+  - メールアドレス数申請の義務化
+  - 詳細: [services/mail-virus-check/mail-virus-check-history.md](./services/mail-virus-check/mail-virus-check-history.md#第1版---2016年9月20日)
+
 ## 2010年
 
 ### 2010年8月1日
@@ -83,6 +100,14 @@
 - **AWSサポートサービス**
   - 現行版: [services/aws-support/aws-support-contract.md](./services/aws-support/aws-support-contract.md)
   - 変更履歴: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md)
+
+- **AWS構築支援サービス**
+  - 現行版: [services/aws-build-support/aws-build-support-contract.md](./services/aws-build-support/aws-build-support-contract.md)
+  - 変更履歴: [services/aws-build-support/aws-build-support-history.md](./services/aws-build-support/aws-build-support-history.md)
+
+- **メールウイルスチェックサービス**
+  - 現行版: [services/mail-virus-check/mail-virus-check-terms.md](./services/mail-virus-check/mail-virus-check-terms.md)
+  - 変更履歴: [services/mail-virus-check/mail-virus-check-history.md](./services/mail-virus-check/mail-virus-check-history.md)
 
 ---
 
