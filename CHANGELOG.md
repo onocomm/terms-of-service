@@ -10,7 +10,7 @@
 
 - **[基本約款]**: オノコムサービス契約約款 (`contract_jp.md`)
 - **[AWS サポート]**: AWSサポートサービス契約約款 (`services/aws-support/`)
-- **[AWS 構築]**: AWS構築支援サービス契約約款 (`services/aws-build-support/`)
+- **[AWS 構築]**: AWS構築支援サービス契約約款 (`services/aws-build/`)
 - **[メールウイルス]**: メールウイルスチェックサービス利用規約 (`services/mail-virus-check/`)
 
 ---
@@ -39,7 +39,7 @@
   - 準委託契約による受託形態
   - 検収期間の設定(作業完了から14日以内)
   - AWS決済代行サービス及びAWSサポートサービスとの連携が前提
-  - 詳細: [services/aws-build-support/aws-build-support-history.md](./services/aws-build-support/aws-build-support-history.md#第1版---2024年4月1日)
+  - 詳細: [services/aws-build/aws-build-history.md](./services/aws-build/aws-build-history.md#第1版---2024年4月1日)
 
 ## 2021年
 
@@ -102,8 +102,8 @@
   - 変更履歴: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md)
 
 - **AWS構築支援サービス**
-  - 現行版: [services/aws-build-support/aws-build-support-contract.md](./services/aws-build-support/aws-build-support-contract.md)
-  - 変更履歴: [services/aws-build-support/aws-build-support-history.md](./services/aws-build-support/aws-build-support-history.md)
+  - 現行版: [services/aws-build/aws-build-contract.md](./services/aws-build/aws-build-contract.md)
+  - 変更履歴: [services/aws-build/aws-build-history.md](./services/aws-build/aws-build-history.md)
 
 - **メールウイルスチェックサービス**
   - 現行版: [services/mail-virus-check/mail-virus-check-terms.md](./services/mail-virus-check/mail-virus-check-terms.md)

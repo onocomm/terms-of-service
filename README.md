@@ -30,10 +30,10 @@ terms-of-service/
     │   ├── aws-support-contract.md    # 現行約款
     │   ├── aws-support-history.md     # サービス固有の変更履歴
     │   └── archive/                   # 過去バージョン保管
-    ├── aws-build-support/             # AWS構築支援サービス
-    │   ├── aws-build-support-contract.md    # 現行約款
-    │   ├── aws-build-support-history.md     # サービス固有の変更履歴
-    │   └── archive/                         # 過去バージョン保管
+    ├── aws-build/                     # AWS構築支援サービス
+    │   ├── aws-build-contract.md      # 現行約款
+    │   ├── aws-build-history.md       # サービス固有の変更履歴
+    │   └── archive/                   # 過去バージョン保管
     └── mail-virus-check/              # メールウイルスチェックサービス
         ├── mail-virus-check-terms.md        # 現行規約
         ├── mail-virus-check-history.md      # サービス固有の変更履歴
@@ -79,8 +79,8 @@ Amazon Web Services (AWS) のサポートサービスに関する約款
 
 Amazon Web Services (AWS) の構築作業支援に関する約款
 
-- **現行版**: [services/aws-build-support/aws-build-support-contract.md](./services/aws-build-support/aws-build-support-contract.md) (第1版 / 2024年4月1日施行)
-- **変更履歴**: [services/aws-build-support/aws-build-support-history.md](./services/aws-build-support/aws-build-support-history.md)
+- **現行版**: [services/aws-build/aws-build-contract.md](./services/aws-build/aws-build-contract.md) (第1版 / 2024年4月1日施行)
+- **変更履歴**: [services/aws-build/aws-build-history.md](./services/aws-build/aws-build-history.md)
 - **サービス内容**:
   - AWS構築作業の支援(準委託契約)
   - 検収期間: 作業完了から14日以内
@@ -111,7 +111,7 @@ Amazon Web Services (AWS) の構築作業支援に関する約款
 
 - **基本約款**: [contract-jp-history.md](./contract-jp-history.md)
 - **AWSサポートサービス**: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md)
-- **AWS構築支援サービス**: [services/aws-build-support/aws-build-support-history.md](./services/aws-build-support/aws-build-support-history.md)
+- **AWS構築支援サービス**: [services/aws-build/aws-build-history.md](./services/aws-build/aws-build-history.md)
 - **メールウイルスチェックサービス**: [services/mail-virus-check/mail-virus-check-history.md](./services/mail-virus-check/mail-virus-check-history.md)
 
 ## 🔍 約款の適用関係
