@@ -15,10 +15,8 @@
 ```
 terms-of-service/
 ├── README.md           # 本ファイル（リポジトリの説明）
-├── LICENSE             # ライセンス・著作権
 ├── contract_jp.md      # 最新版のサービス契約約款
-├── HISTORY.md          # 詳細な変更履歴記録（第1版〜現在まで）
-├── CHANGELOG.md        # 簡潔な変更ログ
+├── HISTORY.md          # 変更履歴記録（第1版〜現在まで）
 ├── FAQ.md              # よくある質問
 └── archive/            # 過去バージョンのアーカイブ
 ```
@@ -70,10 +68,9 @@ terms-of-service/
 2. マークダウン形式で整形された約款を確認
 
 ### 変更履歴を確認する
-1. [HISTORY.md](./HISTORY.md) を開く（詳細な変更履歴）
-2. [CHANGELOG.md](./CHANGELOG.md) を開く（簡潔な変更ログ）
-3. 各バージョンの変更点を確認
-4. 約款の進化の過程を理解
+1. [HISTORY.md](./HISTORY.md) を開く
+2. 各バージョンの変更点を確認
+3. 約款の進化の過程を理解
 
 ## ⚖️ 約款の適用
 
@@ -89,10 +86,6 @@ terms-of-service/
 
 **株式会社オノコム**
 - WEBサイト: http://www.onocomm.jp/
-
-## 📝 ライセンス
-
-本約款は株式会社オノコムに著作権が帰属します。
 
 ---
 
