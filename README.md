@@ -34,6 +34,14 @@ terms-of-service/
     │   ├── aws-build-contract.md      # 現行約款
     │   ├── aws-build-history.md       # サービス固有の変更履歴
     │   └── archive/                   # 過去バージョン保管
+    ├── apmo-observability/            # アプモくん Observabilityダッシュボード
+    │   ├── apmo-observability-terms.md  # 現行利用約款
+    │   ├── apmo-observability-history.md   # サービス固有の変更履歴
+    │   └── archive/                   # 過去バージョン保管
+    ├── pengi-agent/                   # ペンジーくん AIエージェントフレームワーク
+    │   ├── pengi-agent-terms.md    # 現行利用約款
+    │   ├── pengi-agent-history.md     # サービス固有の変更履歴
+    │   └── archive/                   # 過去バージョン保管
     └── mail-virus-check/              # メールウイルスチェックサービス
         ├── mail-virus-check-terms.md        # 現行規約
         ├── mail-virus-check-history.md      # サービス固有の変更履歴
@@ -97,6 +105,46 @@ Amazon Web Services (AWS) の構築作業支援に関する約款
   - Trend Micro社のウイルス・マルウェア対策
   - スパムメール判定機能
 
+#### ペンジーくん AIエージェントフレームワーク利用約款
+
+AIエージェント、チャット、タスク実行、スケジュール実行、成果物管理、外部サービス連携を行うフレームワークの利用条件に関する約款
+
+- **現行版**: [services/pengi-agent/pengi-agent-terms.md](./services/pengi-agent/pengi-agent-terms.md) (第1版 / 2026年6月18日施行)
+- **変更履歴**: [services/pengi-agent/pengi-agent-history.md](./services/pengi-agent/pengi-agent-history.md)
+- **フレームワーク内容**:
+  - AIエージェントとのチャット及びマルチユーザーチャット
+  - バンドル、エージェント定義、アプリ定義、役割定義のインポート・エクスポート
+  - タスク型エージェントによるタスク実行、成果物生成、プレビュー
+  - Google Workspace、Microsoft 365、GitHub、AIプロバイダー等との外部サービス連携
+- **主な条件**:
+  - オノコムメンバーズ契約期間中は、別途定めがない限り追加のシステム利用料なし
+  - オノコムメンバーズ契約期間中は保守サポートを提供し、内容はオノコムメンバーズの契約内容・個別に合意した支援内容に従う
+  - 専用AWSアカウントは当社がSPP等に基づき発行・管理し、標準ではお客様の直接ログインを提供せず、保存データの権利はお客様又は正当な権利者に留保
+  - 標準的な専用AWSアカウント費用は無償提供とし、お客様がAWSアカウントアクセスやデータ取得等を希望する場合は協議の上、実利用分又は個別条件に基づき請求
+  - 標準保存期間は1年間
+  - ONOCOMM AI Gateway利用時、アプモくんAI診断と合算して月間5,000円(税別)相当までのAIモデル利用を無償アクセス枠として提供し、無償枠到達後は停止、継続利用は別途契約が必要
+  - MIT Licenseの適用が明示された公開ソースコード部分はMIT Licenseに基づき利用可能
+  - AIエージェントの役割は内蔵固定ではなく、導入済みバンドルや定義により与えられる
+
+#### アプモくん Observabilityダッシュボード利用約款
+
+クラウド・AIエージェント等のセキュリティ/運用情報の可視化、ReadOnly収集、改善タスク管理、固定AI診断に関する約款
+
+- **現行版**: [services/apmo-observability/apmo-observability-terms.md](./services/apmo-observability/apmo-observability-terms.md) (第1版 / 2026年6月18日施行)
+- **変更履歴**: [services/apmo-observability/apmo-observability-history.md](./services/apmo-observability/apmo-observability-history.md)
+- **ダッシュボード内容**:
+  - AWS Security Hub、GuardDuty、Inspector、WAF、Backup、Health、Config、CloudTrail等を中心とした可視化
+  - その他クラウド、AIエージェント、業務システムのテレメトリー、動作ログ、監査ログ等の取り込み
+  - ReadOnly Collector Role等による対象アカウント・対象システムの収集状態・検出結果の整理
+  - ONOCOMM AI Gatewayのみを利用した所定のAIセキュリティ診断レポート生成
+- **主な条件**:
+  - オノコムメンバーズ契約期間中は、別途定めがない限り追加のシステム利用料なし
+  - 専用AWSアカウントは当社がSPP等に基づき発行・管理し、標準ではお客様の直接ログインを提供せず、保存データの権利はお客様又は正当な権利者に留保
+  - 標準的な専用AWSアカウント費用は無償提供とし、お客様がAWSアカウントアクセスやデータ取得等を希望する場合は協議の上、実利用分又は個別条件に基づき請求
+  - 標準保存期間は1年間
+  - AI診断はOFFにすることが可能
+  - アプモくんAI診断とペンジーくん AIエージェントフレームワークのONOCOMM AI Gateway利用を合算して、月間5,000円(税別)相当までのAIモデル利用を無償アクセス枠として提供し、無償枠到達後は停止、継続利用は別途契約が必要
+
 ## 📚 変更履歴
 
 ### 統合変更履歴
@@ -113,6 +161,8 @@ Amazon Web Services (AWS) の構築作業支援に関する約款
 - **AWSサポートサービス**: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md)
 - **AWS構築支援サービス**: [services/aws-build/aws-build-history.md](./services/aws-build/aws-build-history.md)
 - **メールウイルスチェックサービス**: [services/mail-virus-check/mail-virus-check-history.md](./services/mail-virus-check/mail-virus-check-history.md)
+- **ペンジーくん AIエージェントフレームワーク**: [services/pengi-agent/pengi-agent-history.md](./services/pengi-agent/pengi-agent-history.md)
+- **アプモくん Observabilityダッシュボード**: [services/apmo-observability/apmo-observability-history.md](./services/apmo-observability/apmo-observability-history.md)
 
 ## 🔍 約款の適用関係
 
@@ -213,10 +263,16 @@ services/
 ### AWS構築支援サービス契約約款
 - **第1版** (2024年4月1日) - 現行版
 
+### アプモくん Observabilityダッシュボード利用約款
+- **第1版** (2026年6月18日) - 現行版
+
+### ペンジーくん AIエージェントフレームワーク利用約款
+- **第1版** (2026年6月18日) - 現行版
+
 ### メールウイルスチェックサービス利用規約
 - **第1版** (2016年9月20日) - 現行版
 
 ---
 
-**最終更新日**: 2024年4月1日
+**最終更新日**: 2026年6月18日
 **管理者**: 株式会社オノコム
