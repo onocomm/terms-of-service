@@ -8,6 +8,7 @@
 
 ## 📋 凡例
 
+- **[メンバーズ]**: オノコムメンバーズ契約約款 (`services/onocomm-members/`)
 - **[基本約款]**: オノコムサービス契約約款 (`contract_jp.md`)
 - **[AWS サポート]**: AWSサポートサービス契約約款 (`services/aws-support/`)
 - **[AWS 構築]**: AWS構築支援サービス契約約款 (`services/aws-build/`)
@@ -18,6 +19,18 @@
 ---
 
 ## 2026年
+
+### 2026年11月12日
+- **[メンバーズ]** 新規オンライン契約向け契約約款 第1版を制定
+  - カジュアル・メンバーズ、初期0円、各申込月無料、翌月課金、初回申込月残日数＋12か月、12か月更新と年間拘束なし、初回課金月以降の当月末解約・満額を明記。
+  - 独立した複数契約、重複警告、自動承諾、固定文書への同意、控え及び追記型履歴を規定。
+  - 旧共通ひな形の支払・相互守秘・反社・未実施月料金・双方損害賠償・解除・譲渡・準拠法/管轄・協議を移植。既存署名済み契約を自動変更しない。
+  - ブースト及びプラン変更は現在の提供範囲にせず、履歴内の将来構想として記録。
+  - 詳細: [services/onocomm-members/onocomm-members-history.md](./services/onocomm-members/onocomm-members-history.md)
+- **[基本約款]** 第6版を制定
+  - 第3条第5項に新規メンバーズオンライン契約限定の個別約款・仕様書優先の例外を追加。他サービスの条件は変更しない。
+  - 第5版全文をarchiveへ保存。
+  - 詳細: [contract-jp-history.md](./contract-jp-history.md)
 
 ### 2026年6月18日
 - **[アプモくん]** アプモくん Observabilityダッシュボード利用約款 第1版を制定
@@ -44,7 +57,7 @@
   - 提供サービスを大幅に刷新(オノコムメンバーズ、生成AI関連サービス等を追加)
   - 第21条(領収書)を新設 - キャッシュレス決済への対応
   - 条項の整理・簡素化を実施
-  - 詳細: [contract-jp-history.md](./contract-jp-history.md#第5版現行版---2025年11月1日)
+  - 詳細: [contract-jp-history.md](./contract-jp-history.md#第5版---2025年11月1日)
 
 ## 2024年
 
@@ -118,6 +131,9 @@
 - 過去バージョン: [archive/](./archive/)
 
 ### 個別サービス約款
+- **オノコムメンバーズ**
+  - 現行版: [services/onocomm-members/onocomm-members-contract.md](./services/onocomm-members/onocomm-members-contract.md)
+  - 変更履歴: [services/onocomm-members/onocomm-members-history.md](./services/onocomm-members/onocomm-members-history.md)
 - **AWSサポートサービス**
   - 現行版: [services/aws-support/aws-support-contract.md](./services/aws-support/aws-support-contract.md)
   - 変更履歴: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md)
@@ -140,5 +156,5 @@
 
 ---
 
-**最終更新日**: 2026年6月18日
+**最終更新日**: 2026年11月12日
 **管理者**: 株式会社オノコム
