@@ -9,6 +9,7 @@
 ## 📋 凡例
 
 - **[メンバーズ]**: オノコムメンバーズ契約約款 (`services/onocomm-members/`)
+- **[Mail Ver.2]**: メールサービスVer.2サービス利用条件・オンライン申込条件 (`services/onocomm-mail2/`)
 - **[基本約款]**: オノコムサービス契約約款 (`contract_jp.md`)
 - **[AWS サポート]**: AWSサポートサービス契約約款 (`services/aws-support/`)
 - **[AWS 構築]**: AWS構築支援サービス契約約款 (`services/aws-build/`)
@@ -19,6 +20,19 @@
 ---
 
 ## 2026年
+
+### 2026年11月13日
+- **[Mail Ver.2]** 新規オンライン契約用のサービス利用条件・オンライン申込条件を各第1版として制定
+  - 基本500円（税別）・10GB、十進1GB単位切上げの超過10円、登録月の基本・容量無料を明記。
+  - 任意の有料サポートは20,000円と200円×課金対象アカウント数の高い方とし、登録月も課金。個別作業は別途見積・合意とし、0円とは定めない。
+  - 自動承諾、専用DNS TXT確認後の開通、本人の初期管理者招待、固定版文書への同意及び控えを規定。
+  - TXT確認成功・明示同意後の提出時に契約成立。登録日・無料月はメールドメイン利用準備成功のJST日付で確定し、準備未完了期間を課金せず無料月も消費しない。初期管理者招待受諾待ちで課金開始を延ばさない。
+  - 新規Ver.2契約だけ当月末解約を優先。Ver.1、既存契約、移行及び既存同意は変更しない。
+  - 詳細: [services/onocomm-mail2/onocomm-mail2-history.md](./services/onocomm-mail2/onocomm-mail2-history.md)
+- **[基本約款]** 第7版を制定
+  - 第3条第6項にMail Ver.2新規オンライン契約限定の優先関係を追加。他の本文及びメンバーズの例外は変更しない。
+  - 第6版全文をarchiveへ保存。過去の同意・証跡は差し替えない。
+  - 詳細: [contract-jp-history.md](./contract-jp-history.md)
 
 ### 2026年11月12日
 - **[メンバーズ]** 新規オンライン契約向け契約約款 第1版を制定
@@ -132,6 +146,11 @@
 - 過去バージョン: [archive/](./archive/)
 
 ### 個別サービス約款
+- **メールサービスVer.2**
+  - サービス利用条件: [services/onocomm-mail2/onocomm-mail2-terms.md](./services/onocomm-mail2/onocomm-mail2-terms.md)
+  - オンライン申込条件: [services/onocomm-mail2/onocomm-mail2-online-terms.md](./services/onocomm-mail2/onocomm-mail2-online-terms.md)
+  - 変更履歴: [services/onocomm-mail2/onocomm-mail2-history.md](./services/onocomm-mail2/onocomm-mail2-history.md)
+
 - **オノコムメンバーズ**
   - 現行版: [services/onocomm-members/onocomm-members-contract.md](./services/onocomm-members/onocomm-members-contract.md)
   - 変更履歴: [services/onocomm-members/onocomm-members-history.md](./services/onocomm-members/onocomm-members-history.md)
@@ -157,5 +176,5 @@
 
 ---
 
-**最終更新日**: 2026年11月12日
+**最終更新日**: 2026年11月13日
 **管理者**: 株式会社オノコム
