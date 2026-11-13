@@ -30,7 +30,7 @@ terms-of-service/
 └── services/                          # 個別サービス約款
     ├── onocomm-mail2/                 # Mail Ver.2新規オンライン契約
     │   ├── onocomm-mail2-terms.md      # サービス利用条件
-    │   ├── onocomm-mail2-online-conditions.md # オンライン申込条件
+    │   ├── onocomm-mail2-online-terms.md # オンライン申込条件
     │   └── onocomm-mail2-history.md    # 変更履歴
     ├── onocomm-members/               # メンバーズ新規オンライン契約
     │   ├── onocomm-members-contract.md # 現行約款
@@ -87,7 +87,7 @@ terms-of-service/
 2026年11月13日以降にPortalから新規に申し込み、当社が承諾するVer.2標準契約向けの条件です。Ver.1、既存メール契約及び移行を対象にしません。
 
 - **サービス利用条件**: [services/onocomm-mail2/onocomm-mail2-terms.md](./services/onocomm-mail2/onocomm-mail2-terms.md) (第1版 / 2026年11月13日施行)
-- **オンライン申込条件**: [services/onocomm-mail2/onocomm-mail2-online-conditions.md](./services/onocomm-mail2/onocomm-mail2-online-conditions.md) (第1版 / 2026年11月13日施行)
+- **オンライン申込条件**: [services/onocomm-mail2/onocomm-mail2-online-terms.md](./services/onocomm-mail2/onocomm-mail2-online-terms.md) (第1版 / 2026年11月13日施行)
 - **変更履歴**: [services/onocomm-mail2/onocomm-mail2-history.md](./services/onocomm-mail2/onocomm-mail2-history.md)
 - **料金**: 基本500円（税別）・10GB、超過分は十進1GB単位切上げで10円。登録月の基本・容量料金は無料。有料サポートは任意で月額20,000円と200円×課金対象アカウント数の高い方、登録月も課金。
 - **申込**: 自動承諾、専用DNS TXTによる管理権限確認後の開通、申込者本人の初期管理者招待及び受諾。

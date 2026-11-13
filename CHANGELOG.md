@@ -148,7 +148,7 @@
 ### 個別サービス約款
 - **メールサービスVer.2**
   - サービス利用条件: [services/onocomm-mail2/onocomm-mail2-terms.md](./services/onocomm-mail2/onocomm-mail2-terms.md)
-  - オンライン申込条件: [services/onocomm-mail2/onocomm-mail2-online-conditions.md](./services/onocomm-mail2/onocomm-mail2-online-conditions.md)
+  - オンライン申込条件: [services/onocomm-mail2/onocomm-mail2-online-terms.md](./services/onocomm-mail2/onocomm-mail2-online-terms.md)
   - 変更履歴: [services/onocomm-mail2/onocomm-mail2-history.md](./services/onocomm-mail2/onocomm-mail2-history.md)
 
 - **オノコムメンバーズ**
