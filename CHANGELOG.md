@@ -12,6 +12,7 @@
 - **[Mail Ver.2]**: メールサービスVer.2サービス利用条件・オンライン申込条件 (`services/onocomm-mail2/`)
 - **[メール配送]**: メール配送サービスオンライン契約条件 (`services/onocomm-relay/`)
 - **[基本約款]**: オノコムサービス契約約款 (`contract_jp.md`)
+- **[AWS クラウド]**: AWS決済代行・新規発行オンライン契約条件 (`services/aws-cloud/`)
 - **[AWS サポート]**: AWSサポートサービス契約約款 (`services/aws-support/`)
 - **[AWS 構築]**: AWS構築支援サービス契約約款 (`services/aws-build/`)
 - **[メールウイルス]**: メールウイルスチェックサービス利用規約 (`services/mail-virus-check/`)
@@ -23,6 +24,12 @@
 ## 2026年
 
 ### 2026年11月14日
+- **[AWS クラウド]** 新規オンライン契約条件第1版を制定。当社初期費用無料、統一割引なし、特別要件は別途契約。CloudSign正本の確認資料に基づき、料金・管理・終了条件、利用制限・保証金・責任上限・日本法及び大阪地裁の専属管轄を記載。原本の確認範囲は根拠対応表に記録。
+  - 追加の実ユーザー回答から全4プラン受付、初期パスワードの本人限定Portal確認・初回変更必須、サポート初月無料・解約月非日割りを反映。初月はAWS作成JST月、翌月1日課金開始と具体化し、開始日前の終了は徴収しない。既存サポート約款第14条・第16条及びConsoleの月単位入力を照合し、既存契約は変更しない。
+  - マネージドは最新CLI 3.1.110の単価表再確認と既存Invoice段階式に基づき、3〜20%の各帯切上げ・積上げと最低100,000円の高い方を表示・固定する。構築7日、事務24h・一般12h・本番4h及び個別の対応項目を列挙し、将来機能を自動包含する表現は使わない。CloudSign雛形の空欄を補う現行請求計算の明示と区別する。
+  - 全申込3文書同意は実装設計として採用し、ユーザーが明示した受付・料金条件と出典を区別。既存サポート約款本文は変更せず、新規発行時のサポート用アクセス・本人IAM・MFA・Portal管理選択を専用条件で説明。
+  - [根拠対応表](./services/aws-cloud/aws-cloud-source-map.md)に、出典、原本の確認範囲、既存約款との差異、検証範囲及び将来のフィードバック項目を記録。
+- **[基本約款]** 第9版で新規AWS契約限定の優先例外を第3条第8項へ追加。第8版全文を保存し、既存Relay/Mail2等の本文及び過去同意を維持。
 - **[メール配送]** 新規オンライン契約条件第1版を制定。基本料金・当面の従量単価0円（税別）、配送成功宛先数、自動承諾、本人初期管理者及び即日解約を規定。
 - **[基本約款]** 第8版で新規Relayオンライン契約に限る優先関係を第3条第7項へ追加。第7版を保存し、既存契約・過去の同意・Mail Ver.2の条件を維持。
 
@@ -163,6 +170,11 @@
 - **オノコムメンバーズ**
   - 現行版: [services/onocomm-members/onocomm-members-contract.md](./services/onocomm-members/onocomm-members-contract.md)
   - 変更履歴: [services/onocomm-members/onocomm-members-history.md](./services/onocomm-members/onocomm-members-history.md)
+- **AWS決済代行・新規発行オンライン契約**
+  - 専用条件: [services/aws-cloud/aws-cloud-contract.md](./services/aws-cloud/aws-cloud-contract.md)
+  - 変更履歴: [services/aws-cloud/aws-cloud-history.md](./services/aws-cloud/aws-cloud-history.md)
+  - 根拠対応表: [services/aws-cloud/aws-cloud-source-map.md](./services/aws-cloud/aws-cloud-source-map.md)
+
 - **AWSサポートサービス**
   - 現行版: [services/aws-support/aws-support-contract.md](./services/aws-support/aws-support-contract.md)
   - 変更履歴: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md)
