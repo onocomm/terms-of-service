@@ -25,9 +25,13 @@ terms-of-service/
 │   ├── v3_2018-07-01.md              # 第3版
 │   ├── v4_2021-02-01.md              # 第4版
 │   ├── v5_2025-11-01.md              # 第5版
-│   └── v6_2026-11-12.md              # 第6版
+│   ├── v6_2026-11-12.md              # 第6版
+│   └── v7_2026-11-13.md              # 第7版
 │
 └── services/                          # 個別サービス約款
+    ├── onocomm-relay/                 # メール配送の新規オンライン契約
+    │   ├── onocomm-relay-contract.md  # 契約条件
+    │   └── onocomm-relay-history.md   # 変更履歴
     ├── onocomm-mail2/                 # Mail Ver.2新規オンライン契約
     │   ├── onocomm-mail2-terms.md      # サービス利用条件
     │   ├── onocomm-mail2-online-terms.md # オンライン申込条件
@@ -64,7 +68,7 @@ terms-of-service/
 
 **オノコムサービス契約約款** - 全サービス共通の基本約款
 
-- **現行版**: [contract_jp.md](./contract_jp.md) (第7版 / 2026年11月13日施行)
+- **現行版**: [contract_jp.md](./contract_jp.md) (第8版 / 2026年11月14日施行)
 - **変更履歴**: [contract-jp-history.md](./contract-jp-history.md)
 - **対象サービス**:
   - オノコムメンバーズ
@@ -81,6 +85,15 @@ terms-of-service/
 ### 個別サービス約款
 
 各サービス固有の詳細な利用条件を定めた約款です。基本約款と合わせてご確認ください。
+
+#### メール配送サービスオンライン契約条件
+
+2026年11月14日以降にPortalから新規成立する送信専用onocomm-relay契約向けです。メールVer.2とは独立して申し込めます。
+
+- **契約条件**: [services/onocomm-relay/onocomm-relay-contract.md](./services/onocomm-relay/onocomm-relay-contract.md) (第1版 / 2026年11月14日施行)
+- **変更履歴**: [services/onocomm-relay/onocomm-relay-history.md](./services/onocomm-relay/onocomm-relay-history.md)
+- **料金**: 基本・当面の従量単価とも0円（税別）。配送成功した宛先数を対象とします。
+- **申込・解約**: 自動承諾、本人初期管理者登録、固定版同意・控え。即日解約で新規受付を停止し、受付済み配送は継続します。既存契約・他サービスは変更しません。
 
 #### メールサービスVer.2 サービス利用条件・オンライン申込条件
 
@@ -192,6 +205,7 @@ AIエージェント、チャット、タスク実行、スケジュール実行
 各サービスの約款の詳細な変更履歴:
 
 - **基本約款**: [contract-jp-history.md](./contract-jp-history.md)
+- **メール配送**: [services/onocomm-relay/onocomm-relay-history.md](./services/onocomm-relay/onocomm-relay-history.md)
 - **メールサービスVer.2**: [services/onocomm-mail2/onocomm-mail2-history.md](./services/onocomm-mail2/onocomm-mail2-history.md)
 - **オノコムメンバーズ**: [services/onocomm-members/onocomm-members-history.md](./services/onocomm-members/onocomm-members-history.md)
 - **AWSサポートサービス**: [services/aws-support/aws-support-history.md](./services/aws-support/aws-support-history.md)
@@ -209,6 +223,7 @@ AIエージェント、チャット、タスク実行、スケジュール実行
 3. 個別サービス約款と基本約款の内容が矛盾する場合、各文書に定める適用関係を確認します
 4. 2026年11月12日以降の新規メンバーズオンライン契約では、個別約款及び参照するサービス仕様書の具体的な定めを基本約款に優先します。仕様書を優先し、個別約款で補完します。この例外は他サービス及び既存署名済み契約の条件を変更しません
 5. 2026年11月13日以降にPortalから新規に申し込み、当社が承諾するMail Ver.2契約では、オンライン申込条件、サービス利用条件、基本約款の順で具体的な定めを優先します。この例外もVer.1、既存メール契約、移行及び他サービスの条件・過去の同意内容を変更しません
+6. 2026年11月14日以降にPortalから新規成立するメール配送onocomm-relay契約では、メール配送サービスオンライン契約条件の具体的な定めを基本約款に優先します。既存契約・他サービス・過去の同意は変更しません
 
 ### 約款の確認手順
 
@@ -234,7 +249,7 @@ AIエージェント、チャット、タスク実行、スケジュール実行
 
 ### 過去バージョンを確認する
 
-- 基本約款: [archive/](./archive/) ディレクトリ内の `v1_`, `v2_`, `v3_`, `v4_`, `v5_`, `v6_` ファイル
+- 基本約款: [archive/](./archive/) ディレクトリ内の `v1_`, `v2_`, `v3_`, `v4_`, `v5_`, `v6_`, `v7_` ファイル
 - 個別サービス: 各サービスの `archive/` ディレクトリ(今後追加される改訂版を格納)
 
 ## 🆕 新しいサービス約款の追加方法
@@ -289,7 +304,8 @@ services/
 ## 📊 改訂履歴サマリー
 
 ### 基本約款
-- **第7版** (2026年11月13日) - 現行版
+- **第8版** (2026年11月14日) - 現行版
+- **第7版** (2026年11月13日)
 - **第6版** (2026年11月12日)
 - **第5版** (2025年11月1日)
 - **第4版** (2021年2月1日)
@@ -302,6 +318,9 @@ services/
 
 ### メールサービスVer.2 サービス利用条件・オンライン申込条件
 - **各第1版** (2026年11月13日) - 新規オンライン契約向け現行版
+
+### メール配送サービスオンライン契約条件
+- **第1版** (2026年11月14日) - 新規オンライン契約向け現行版
 
 ### AWSサポートサービス契約約款
 - **第1版** (2024年4月1日) - 現行版
@@ -320,5 +339,5 @@ services/
 
 ---
 
-**最終更新日**: 2026年11月13日
+**最終更新日**: 2026年11月14日
 **管理者**: 株式会社オノコム

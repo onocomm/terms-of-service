@@ -10,6 +10,7 @@
 
 - **[メンバーズ]**: オノコムメンバーズ契約約款 (`services/onocomm-members/`)
 - **[Mail Ver.2]**: メールサービスVer.2サービス利用条件・オンライン申込条件 (`services/onocomm-mail2/`)
+- **[メール配送]**: メール配送サービスオンライン契約条件 (`services/onocomm-relay/`)
 - **[基本約款]**: オノコムサービス契約約款 (`contract_jp.md`)
 - **[AWS サポート]**: AWSサポートサービス契約約款 (`services/aws-support/`)
 - **[AWS 構築]**: AWS構築支援サービス契約約款 (`services/aws-build/`)
@@ -20,6 +21,10 @@
 ---
 
 ## 2026年
+
+### 2026年11月14日
+- **[メール配送]** 新規オンライン契約条件第1版を制定。基本料金・当面の従量単価0円（税別）、配送成功宛先数、自動承諾、本人初期管理者及び即日解約を規定。
+- **[基本約款]** 第8版で新規Relayオンライン契約に限る優先関係を第3条第7項へ追加。第7版を保存し、既存契約・過去の同意・Mail Ver.2の条件を維持。
 
 ### 2026年11月13日
 - **[Mail Ver.2]** 新規オンライン契約用のサービス利用条件・オンライン申込条件を各第1版として制定
@@ -146,6 +151,10 @@
 - 過去バージョン: [archive/](./archive/)
 
 ### 個別サービス約款
+- **メール配送**
+  - 契約条件: [services/onocomm-relay/onocomm-relay-contract.md](./services/onocomm-relay/onocomm-relay-contract.md)
+  - 変更履歴: [services/onocomm-relay/onocomm-relay-history.md](./services/onocomm-relay/onocomm-relay-history.md)
+
 - **メールサービスVer.2**
   - サービス利用条件: [services/onocomm-mail2/onocomm-mail2-terms.md](./services/onocomm-mail2/onocomm-mail2-terms.md)
   - オンライン申込条件: [services/onocomm-mail2/onocomm-mail2-online-terms.md](./services/onocomm-mail2/onocomm-mail2-online-terms.md)
@@ -176,5 +185,5 @@
 
 ---
 
-**最終更新日**: 2026年11月13日
+**最終更新日**: 2026年11月14日
 **管理者**: 株式会社オノコム
